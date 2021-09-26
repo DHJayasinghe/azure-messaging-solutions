@@ -25,13 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageQueue.Consumer.WebJo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBusAdmin", "ServiceBusAdmin", "{69EAD1DC-B608-4079-8AAA-5FF88584C683}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus", "ServiceBus.Admin\EventBus.csproj", "{10658791-4DD2-475F-96E2-F0079E9BAF45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus", "ServiceBus\ServiceBus.csproj", "{10658791-4DD2-475F-96E2-F0079E9BAF45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Demo.Api", "EventBus.Demo\EventBus.Demo.Api.csproj", "{29393F15-C64E-4897-A41B-8FEA62133AC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus.Demo.Api", "ServiceBus.Demo\ServiceBus.Demo.Api.csproj", "{29393F15-C64E-4897-A41B-8FEA62133AC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Admin", "EventBus.Admin\EventBus.Admin.csproj", "{0236F1F0-3ADE-4A35-ACBF-7C681CD8DBAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus.Admin", "ServiceBus.Admin\ServiceBus.Admin.csproj", "{0236F1F0-3ADE-4A35-ACBF-7C681CD8DBAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Demo.Function", "EventBus.Demo.Function\EventBus.Demo.Function.csproj", "{87BDF22C-D15E-409F-8291-C124028E413D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus.Demo.Function", "ServiceBus.Demo.Function\ServiceBus.Demo.Function.csproj", "{87BDF22C-D15E-409F-8291-C124028E413D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
