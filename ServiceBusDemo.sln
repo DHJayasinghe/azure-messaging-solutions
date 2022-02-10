@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31605.320
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "Publish\Publisher.csproj", "{B361CEBE-40DE-4844-B48E-98CB951A7362}"
 EndProject
@@ -35,9 +35,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus.Demo.Function", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventHub", "EventHub", "{12BF241F-404A-47D7-99CE-FE9D37EBB2E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHub.Producer", "EventHub.Producer\EventHub.Producer.csproj", "{0D9E6606-561D-4FF4-ADDB-B45E8331AE42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHub.Producer", "EventHub.Producer\EventHub.Producer.csproj", "{0D9E6606-561D-4FF4-ADDB-B45E8331AE42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHub.Consumer", "EventHub.Consumer\EventHub.Consumer.csproj", "{AFA86033-5DE8-49CA-9DBD-477F9EB83A33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHub.Consumer", "EventHub.Consumer\EventHub.Consumer.csproj", "{AFA86033-5DE8-49CA-9DBD-477F9EB83A33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBusRequestReply", "ServiceBusRequestReply", "{6850E1A3-E5AF-4D62-9885-A0B74B1C6FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusRequest", "ServiceBusRequest\ServiceBusRequest.csproj", "{EDDF922B-92B9-4E73-BF04-F44963630579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusReply", "ServiceBusReply\ServiceBusReply.csproj", "{CE32AECA-7A54-428C-AE5B-D4D8FFFDCB39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +107,14 @@ Global
 		{AFA86033-5DE8-49CA-9DBD-477F9EB83A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFA86033-5DE8-49CA-9DBD-477F9EB83A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFA86033-5DE8-49CA-9DBD-477F9EB83A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDF922B-92B9-4E73-BF04-F44963630579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDF922B-92B9-4E73-BF04-F44963630579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDF922B-92B9-4E73-BF04-F44963630579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDF922B-92B9-4E73-BF04-F44963630579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE32AECA-7A54-428C-AE5B-D4D8FFFDCB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE32AECA-7A54-428C-AE5B-D4D8FFFDCB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE32AECA-7A54-428C-AE5B-D4D8FFFDCB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE32AECA-7A54-428C-AE5B-D4D8FFFDCB39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +131,8 @@ Global
 		{87BDF22C-D15E-409F-8291-C124028E413D} = {69EAD1DC-B608-4079-8AAA-5FF88584C683}
 		{0D9E6606-561D-4FF4-ADDB-B45E8331AE42} = {12BF241F-404A-47D7-99CE-FE9D37EBB2E5}
 		{AFA86033-5DE8-49CA-9DBD-477F9EB83A33} = {12BF241F-404A-47D7-99CE-FE9D37EBB2E5}
+		{EDDF922B-92B9-4E73-BF04-F44963630579} = {6850E1A3-E5AF-4D62-9885-A0B74B1C6FC3}
+		{CE32AECA-7A54-428C-AE5B-D4D8FFFDCB39} = {6850E1A3-E5AF-4D62-9885-A0B74B1C6FC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3185A2D4-1314-48F0-975B-2E6C6533576D}
